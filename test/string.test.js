@@ -37,4 +37,70 @@ describe('String', function() {
       'foof'.to(1).should.eql('fo');
     });
   });
+  
+  describe('.toNumber()', function() {
+    it('converts string to Number', function() {
+      '2'.toNumber().should.eql(2);
+    });
+  });
+  
+  describe('.pluralize()', function() {
+    it('should pluralize a word', function() {
+      'cat'.pluralize().should.eql('cats');
+    });
+  });
+  
+  describe('.constantize()', function() {
+    it('should constantize a word', function() {
+      'foo'.constantize().should.eql('FOO');
+    }); 
+  });
+  
+  describe('.camelize()', function() {
+    it('should constantize a word', function() {
+      'foo bar'.camelize().should.eql('FooBar');
+      'foo bar'.camelize(false).should.eql('fooBar');
+    }); 
+  });
+  
+  describe('.titleize()', function() {
+    it('should titleize a word', function() {
+      'foo bar'.titleize().should.eql('Foo Bar');
+    });
+  });
+  
+  describe('.underscore()', function() {
+    it('should underscore a word', function() {
+      'FooBar'.underscore().should.eql('foo_bar');
+    });
+  });
+  
+  describe('.dasherize()', function() {
+    it('should dasherize a word', function() {
+      'FooBar'.dasherize().should.eql('foo-bar');
+    });
+  });
+  
+  describe('.tableize()', function() {
+    it('should tableize a word', function() {
+      'FooBar'.tableize().should.eql('foo_bars');
+    });
+  });
+  
+  describe('.classify()', function() {
+    it('should classify a word', function() {
+      'foo_bar'.classify().should.eql('FooBar');
+      'foo-bar'.classify().should.eql('FooBar');
+      'foo bar'.classify().should.eql('FooBar');
+    });
+  });
+  
+  describe('.humanize()', function() {
+    it('should humanize a word', function() {
+      'foo_bar'.humanize().should.eql('Foo bar');
+      'foo-Bar'.humanize().should.eql('Foo bar');
+      'foo Bar'.humanize().should.eql('Foo bar');
+      'foo bar'.humanize().should.eql('Foo bar');
+    });
+  });
 });

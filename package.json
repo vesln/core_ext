@@ -4,6 +4,9 @@
   , "description": "JavaScript extensions."
   , "keywords": ["extension", "core extensions"]
   , "author": "Veselin Todorov <hi@vesln.com>"
+  , "dependencies": {
+      "lingo": "0.0.4"
+  }
   , "devDependencies": {
       "mocha": "0.3.3"
     , "should": "0.3.2"
