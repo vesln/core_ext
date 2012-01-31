@@ -48,4 +48,10 @@ describe('Number', function() {
       (2.2).floor().should.eql(2);
     });
   });
+  
+  describe('.times()', function() {
+   it('should be sane', function() {
+     (3).times.should.be.ok
+   }); 
+  });
 });
