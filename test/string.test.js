@@ -103,4 +103,10 @@ describe('String', function() {
       'foo bar'.humanize().should.eql('Foo bar');
     });
   });
+  
+  describe('.repeat()', function() {
+    it('should repeat string n times', function() {
+      'foo'.repeat(2).should.eql('foofoo');
+    });
+  });
 });
