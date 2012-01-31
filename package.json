@@ -8,7 +8,7 @@
       "mocha": "0.3.3"
     , "should": "0.3.2"
   }
-  , "repository" : {
+  , "repository": {
       "type" : "git"
     , "url" : "http://github.com/vesln/core_ext.git"
   }
