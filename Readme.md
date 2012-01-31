@@ -63,7 +63,7 @@ This is experimental project and it's created just for fun. You should use it on
     .to()
       // return the part of a string to supplied index  
     .toNumber()
-      ✓ converts string to Number  
+      // converts string to Number  
     .pluralize()
       // pluralize a word  
     .constantize()
