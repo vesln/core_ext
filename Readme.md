@@ -13,6 +13,81 @@ This is experimental project and it's created just for fun. You should use it on
 
 ## Synopsis
 
+```js
+Array
+    .clear()
+      ✓ should clear an array  
+    .first()
+      ✓ should return the first element of an array  
+    .last()
+      ✓ should return the first element of an array  
+    .toSentence()
+      ✓ should return sentence from array  
+
+  Number
+    ✓ should have all mill methods  
+    .toInt()
+      ✓ should convert number to integer  
+    .abs()
+      ✓ should return the abs value of a number  
+    .round()
+      ✓ should rounds a number to the nearest integer  
+    .ceil()
+      ✓ should rounds a number to the nearest integer  
+    .floor()
+      ✓ should rounds a number to the nearest integer  
+    .times()
+      ✓ should be sane  
+    .random()
+      ✓ should return random number within a range  
+
+  Object
+    .clone()
+      ✓ should clone an object  
+    .extend()
+      ✓ should merge two objects.  
+    .blank()
+      ✓ should check if object is blank  
+    .eventilize()
+      ✓ should add event emitter abillities to an object  
+
+  String
+    .at()
+      ✓ should have .at method that returns char from specified position  
+    .first()
+      ✓ should return the first char of a string  
+    .last()
+      ✓ should return the first char of a string  
+    .from()
+      ✓ should return the part of a string from supplied index  
+    .to()
+      ✓ should return the part of a string to supplied index  
+    .toNumber()
+      ✓ converts string to Number  
+    .pluralize()
+      ✓ should pluralize a word  
+    .constantize()
+      ✓ should constantize a word  
+    .camelize()
+      ✓ should constantize a word  
+    .titleize()
+      ✓ should titleize a word  
+    .underscore()
+      ✓ should underscore a word  
+    .dasherize()
+      ✓ should dasherize a word  
+    .tableize()
+      ✓ should tableize a word  
+    .classify()
+      ✓ should classify a word  
+    .humanize()
+      ✓ should humanize a word  
+    .repeat()
+      ✓ should repeat string n times  
+    .in()
+      ✓ should check if number is within a given range
+```
+
 ## Requirements
 
 - NPM (http://npmjs.org/)
