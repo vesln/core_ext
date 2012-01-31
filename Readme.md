@@ -1,10 +1,17 @@
 [![Build Status](https://secure.travis-ci.org/vesln/core_ext.png)](http://travis-ci.org/vesln/core_ext)
 
-# JavaScript core extensions.
+# JavaScript prototype extensions.
 
 ## Description
 
-## Features
+core_ext is fun little project that adds additional functionality to your JS core objects.
+
+# Notice
+
+Extending JavaScript natives is not great. Do it only if you are pretty sure about it.
+This is experimental project and it's created just for fun.
+
+http://javascriptweblog.wordpress.com/2011/12/05/extending-javascript-natives/
 
 ## Synopsis
 

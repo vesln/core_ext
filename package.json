@@ -1,7 +1,7 @@
 {
     "name": "core_ext"
   , "version": "0.0.0"
-  , "description": "JavaScript extensions."
+  , "description": "JavaScript prototype extensions."
   , "keywords": ["extension", "core extensions"]
   , "author": "Veselin Todorov <hi@vesln.com>"
   , "dependencies": {
