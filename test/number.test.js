@@ -50,8 +50,14 @@ describe('Number', function() {
   });
   
   describe('.times()', function() {
-   it('should be sane', function() {
-     (3).times.should.be.ok
-   }); 
+    it('should be sane', function() {
+      (3).times.should.be.ok;
+    }); 
+  });
+  
+  describe('.random()', function() {
+    it('should return random number within a range', function() {
+      Number.random(20, 33).should.match(/[20-33]/);
+    });
   });
 });

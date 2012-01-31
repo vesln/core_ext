@@ -109,4 +109,11 @@ describe('String', function() {
       'foo'.repeat(2).should.eql('foofoo');
     });
   });
+  
+  describe('.in()', function() {
+    it('should check if number is within a given range', function() {
+      (5).in(3, 6).should.be.true;
+      (5).in(8, 9).should.be.false;
+    });
+  });
 });
