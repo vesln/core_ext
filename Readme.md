@@ -9,9 +9,7 @@ core_ext is fun little project that adds additional functionality to your JS cor
 # Notice
 
 Extending JavaScript natives is not great. Do it only if you are pretty sure about it.
-This is experimental project and it's created just for fun.
-
-http://javascriptweblog.wordpress.com/2011/12/05/extending-javascript-natives/
+This is experimental project and it's created just for fun. You should use it only for fun too.
 
 ## Synopsis
 
