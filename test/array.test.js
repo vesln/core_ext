@@ -28,4 +28,10 @@ describe('Array', function() {
       arr.last().should.eql('bar');
     });
   });
+  
+  describe('.toSentence()', function() {
+    it('should return sentence from array', function() {
+      ['foo', 'bar', 'baz'].toSentence().should.eql('Foo, bar and baz.');
+    });
+  });
 });
