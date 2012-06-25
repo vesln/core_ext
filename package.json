@@ -1,6 +1,6 @@
 {
     "name": "core_ext"
-  , "version": "0.0.1"
+  , "version": "0.0.2"
   , "description": "JavaScript prototype extensions."
   , "keywords": ["extension", "core extensions"]
   , "author": "Veselin Todorov <hi@vesln.com>"
@@ -23,6 +23,6 @@
   }
   , "main": "./lib/index"
   , "engines": {
-      "node": ">= 0.6.0 < 0.7.0"
+      "node": ">= 0.6.0"
   }
 }
