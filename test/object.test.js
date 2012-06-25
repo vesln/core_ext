@@ -1,11 +1,12 @@
 /*!
  * core_ext - JavaScript extensions.
- * 
+ *
  * Veselin Todorov <hi@vesln.com>
  * MIT License.
  */
 
 var object = require('../lib/object');
+var should = require('chai').should();
 
 describe('Object', function() {
   describe('.clone()', function() {
@@ -16,7 +17,7 @@ describe('Object', function() {
       obj2.foo.should.not.equal(obj.foo);
     });
   });
-  
+
   describe('.extend()', function() {
     it('should merge two objects.', function() {
       var obj = { foo: 3 };
@@ -24,14 +25,14 @@ describe('Object', function() {
       obj.bar.should.eql(3);
     });
   });
-  
+
   describe('.blank()', function() {
     it('should check if object is blank', function() {
       ({}).blank().should.be.true;
       ({foo: 'bar'}).blank().should.be.false;
     });
   });
-  
+
   describe('.eventilize()', function() {
     it('should add event emitter abillities to an object', function() {
       var obj = { foo: 3 };
